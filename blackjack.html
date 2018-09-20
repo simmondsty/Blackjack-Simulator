@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<title>Blackjack</title>
+
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/libraries/jquery-confirm.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+	<div id="main-cont">
+
+		<div id="card_table">
+
+			<div class="center_holder" id="dealer">
+				<div id="dealer-div" class="player_spot">
+					<div class="center_holder">
+						<p>Dealer</p>
+					</div>
+
+					<div class="card">
+						<span class="card-top-left">A</span>
+						<span class="top-left-icon">&#9824;</span>
+						<span class="center_icon"><i class="fas fa-space-shuttle"></i></span>
+						<span class="card-bottom-right">A</span>
+						<span class="bottom-right-icon">&#9824;</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="center_holder" id="bottom_players">
+				<div id="spot-2" class="player_spot">
+					<div class="center_holder">
+						<p>Player 3</p>
+					</div>
+					<div class="card"></div>
+					<div class="card" id="card2"></div>
+					<div class="card" id="card3"></div>
+					<div class="card" id="card4"></div>
+					<div class="card" id="card5"></div>
+				</div>
+				<div id="spot-1" class="player_spot">
+					<div class="center_holder">
+						<p>Player 4</p>
+					</div>
+					<div class="card"></div>
+					<div class="card" id="card2"></div>
+					<div class="card" id="card3"></div>
+					<div class="card" id="card4"></div>
+					<div class="card" id="card5"></div>
+				</div>
+				<div id="spot-3" class="player_spot">
+					<div class="center_holder">
+						<p>Player 5</p>
+					</div>
+					<div class="card"></div>
+					<div class="card" id="card2"></div>
+					<div class="card" id="card3"></div>
+					<div class="card" id="card4"></div>
+					<div class="card" id="card5"></div>
+				</div>
+			</div>
+
+			<div id="top_players">
+				<div id="spot-4" class="player_spot">
+					<div class="center_holder">
+						<p>Player 1</p>
+					</div>
+					<div class="card"></div>
+					<div class="card" id="card2"></div>
+					<div class="card" id="card3"></div>
+					<div class="card" id="card4"></div>
+					<div class="card" id="card5"></div>
+					<div class="separate_holder bet"><div>Current Bet: <span id="4-bet"></span></div><div>Winnings: <span id="4-win"></span></div></div>
+				</div>
+				<div id="spot-5" class="player_spot">
+					<div class="center_holder">
+						<p>Player 7</p>
+					</div>
+					<div class="card"></div>
+					<div class="card" id="card2"></div>
+					<div class="card" id="card3"></div>
+					<div class="card" id="card4"></div>
+					<div class="card" id="card5"></div>
+				</div>
+			</div>
+
+			<div id="side_players">
+				<div id="spot-6" class="player_spot">
+					<div class="center_holder">
+						<p>Player 2</p>
+					</div>
+					<div class="card"></div>
+					<div class="card" id="card2"></div>
+					<div class="card" id="card3"></div>
+					<div class="card" id="card4"></div>
+					<div class="card" id="card5"></div>
+				</div>
+				<div id="spot-7" class="player_spot">
+					<div class="center_holder">
+						<p>Player 6</p>
+					</div>
+					<div class="card"></div>
+					<div class="card" id="card2"></div>
+					<div class="card" id="card3"></div>
+					<div class="card" id="card4"></div>
+					<div class="card" id="card5"></div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+	<!-- main-cont -->
+
+	<!-- <div class="modal" id="players_modal">
+		<div class="modal-content">
+
+			<div class="modal-body">
+				<div class="modal-header">
+					<h2>Number of Players</h2>
+				</div>
+				<div class="center_holder">
+					<select id="players_select">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+					</select>
+				</div>
+
+				<div id="build_names">
+
+					<div class="center_holder">
+						<label>Your Name</label>
+					</div>
+					<div class="center_holder">
+						<input id="player_name" type="text">
+					</div>
+
+				</div>
+
+
+				<button onclick="set_players()">Play</button>
+
+				<div id="divalert" class="alert">
+					<span>
+						<span id="text_holder">
+							<p id="divalerttext">Longer</p>
+							<p id="buildalert"></p>
+						</span>
+						<div onclick="hidemessage()" id='divalertclose'>&times;</div>
+					</span>
+				</div>
+
+			</div>
+
+		</div>
+	</div> -->
+
+	<script type="text/javascript" src="js/libraries/jquery.js"></script>
+	<script type="text/javascript" src="js/libraries/jquery-confirm.js"></script>
+	<script type="text/javascript" src="js/libraries/font-awesome.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>
